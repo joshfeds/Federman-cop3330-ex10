@@ -8,12 +8,13 @@ public class Exercise10
 {
     static Scanner input = new Scanner(System.in);
     static final float TAX_RATE = .055F;
+
     public static String priceItem(int itemNumber){
-        System.out.printf("Enter the price of item %d ", itemNumber + 1);
+        System.out.printf("Enter the price of item %d: ", itemNumber + 1);
         return input.nextLine();
     }
     public static String quantityItem(int itemNumber){
-        System.out.printf("Enter the quantity of item %d ", itemNumber + 1);
+        System.out.printf("Enter the quantity of item %d: ", itemNumber + 1);
         return input.nextLine();
     }
     public static void printMath(float subTotal, float tax, float total){
